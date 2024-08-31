@@ -1,0 +1,49 @@
+.result {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .result h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .result p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .result button {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #667eea;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result button:hover {
+    background-color: #4c60da;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

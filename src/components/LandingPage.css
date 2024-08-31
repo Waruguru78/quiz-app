@@ -1,0 +1,41 @@
+.landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.text-content {
+  max-width: 800px;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.text-content p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.start-btn {
+  background-color: #4caf50;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #388e3c;
+}
